@@ -329,9 +329,9 @@ body {
   height: 12px;
   width: 12px;
 
-  background: var(--white, #fff);
+  background-color: var(--white, #fff);
   left: 50%;
-  bottom: -6px;
+  bottom: -8px;
   clip-path: polygon(100% 0, 0 0, 0 100%);
   border: 1px solid var(--blue-highlight);
 
@@ -339,11 +339,10 @@ body {
 }
 
 .options__item:hover,
-.options__label:hover,
-.options__label:hover::before {
-  cursor: pointer;
+.options__item:hover::before {
   background-color: var(--gray-200, hsla(210, 39%, 95%, 1));
-  border-radius: 8px;
+
+  cursor: pointer;
 }
 .options__label {
   display: flex;
