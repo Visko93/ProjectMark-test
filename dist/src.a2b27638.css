@@ -329,9 +329,9 @@ body {
   height: 12px;
   width: 12px;
 
-  background: var(--white, #fff);
+  background-color: var(--white, #fff);
   left: 50%;
-  bottom: -6px;
+  bottom: -8px;
   clip-path: polygon(100% 0, 0 0, 0 100%);
   border: 1px solid var(--blue-highlight);
 
